@@ -71,10 +71,6 @@ public class XMLParser {
 
 	}
 	
-	/**
-	 * Getting XML DOM element
-	 * @param XML string
-	 * */
 	public Document getDomElement(String xml){
 		Document doc = null;
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -117,12 +113,7 @@ public class XMLParser {
 	     return "";
 	 }
 	 
-	 /**
-	  * Getting node value
-	  * @param Element node
-	  * @param key string
-	  * */
-	 public String getValue(Element item, String str) {		
+	 public String getValue(Element item, String str) {
 			NodeList n = item.getElementsByTagName(str);		
 			return this.getElementValue(n.item(0));
 		}
