@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">کالا نما</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">کالانما</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="profile_name">نام کاربری</string>
+    <string name="phone_number">شماره تلفن</string>
+    <string name="btnRegister">ثبت نام</string>
+        <string name="title_activity_register_confirmed">تایید ثبت نام</string>
+    <string name="ConfirmedCode">کد تایید</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

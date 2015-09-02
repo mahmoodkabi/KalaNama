@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:id="@+id/RegisterLinearLayoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/RegisterLinearLayoutDown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center" >
+
+            <EditText
+                android:id="@+id/RegisterProfileName"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:hint="@string/profile_name"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <EditText
+                android:id="@+id/RegisterMobileNumber"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:maxLength="11"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/RegisterButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button"
+                android:text="@string/btnRegister"
+                android:textColor="#FFF"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/RegisterStatus"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

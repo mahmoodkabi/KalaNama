@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/style_list_selector"
+    android:orientation="horizontal"
+    android:padding="0dip">
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/style_image_bg"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="110dip"
+            android:layout_height="110dip"
+            android:src="@drawable/rihanna" />
+
+    </LinearLayout>
+
+    <!-- Title of product-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Title"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Description"
+        android:textColor="#343434"
+        android:textSize="10dip" />
+
+    <!-- Rightend Duration -->
+
+    <!-- Favorite -->
+    <ImageView
+        android:id="@+id/favorite1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:src="@drawable/favorite" />
+
+    <ImageView
+        android:id="@+id/favorite2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/favorite1"
+        android:layout_toEndOf="@+id/favorite1"
+        android:src="@drawable/favorite" />
+
+    <ImageView
+        android:id="@+id/favorite3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/favorite2"
+        android:layout_toEndOf="@+id/favorite2"
+        android:src="@drawable/favorite" />
+
+    <ImageView
+        android:id="@+id/favorite4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/favorite3"
+        android:layout_toEndOf="@+id/favorite3"
+        android:src="@drawable/favorite" />
+
+    <ImageView
+        android:id="@+id/favorite5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/favorite4"
+        android:layout_toEndOf="@+id/favorite4"
+        android:src="@drawable/favorite" />
+
+    <!-- مشاهده -->
+    <ImageView
+        android:id="@+id/view_eye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eye"
+        android:layout_below="@+id/favorite5"
+        android:layout_alignStart="@+id/favorite5" />
+
+    <!-- تعداد  مشاهده -->
+    <TextView
+        android:id="@+id/view_eye_count"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="View"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_below="@+id/favorite4"
+        android:layout_alignEnd="@+id/favorite4"
+        android:textAlignment="center" />
+
+    <!-- Comment -->
+    <ImageView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/comment"
+        android:layout_alignTop="@+id/view_eye"
+        android:layout_toEndOf="@+id/view_eye"
+        android:layout_marginStart="70dp" />
+
+    <!-- Comment Count-->
+    <TextView
+        android:id="@+id/comment_count"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="Comment"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_alignTop="@+id/view_eye"
+        android:layout_toEndOf="@+id/view_eye"
+        android:layout_marginStart="32dp" />
+
+    <!-- FAQ -->
+    <ImageView
+        android:id="@+id/faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/question"
+        android:layout_alignTop="@+id/view_eye"
+        android:layout_toEndOf="@+id/view_eye"
+        android:layout_marginStart="140dp" />
+
+    <!-- Comment Count-->
+    <TextView
+        android:id="@+id/faq_count"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="FAQ"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_alignTop="@+id/view_eye"
+        android:layout_toEndOf="@+id/view_eye"
+        android:layout_marginStart="105dp"
+        android:textAlignment="center" />
+
+</RelativeLayout>

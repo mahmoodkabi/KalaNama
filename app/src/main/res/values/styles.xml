@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+    <resources>
+    <!-- Base application theme. -->
+    <style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+    <item name="android:windowActionBar">true</item>
+
+</style>
+
+<!--<style name="CustEt" parent="Base.V7.Widget.AppCompat.EditText">
+    <item name="android:background">#FF65c620</item>
+    <item name="android:supportsRtl">true</item>
+</style>-->
+
+</resources>
