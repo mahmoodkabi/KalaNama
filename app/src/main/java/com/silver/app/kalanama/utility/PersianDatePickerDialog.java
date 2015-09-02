@@ -152,13 +152,7 @@ public class PersianDatePickerDialog extends DialogFragment {
             npDay.setValue(days.length - 1);
     }
 
-    /**
-     * Sets the OnDateTimeSetListener interface
-     *
-     * @param onDateTimeSetListener
-     *            Interface that is used to send the Date and Time to the
-     *            calling object
-     */
+
     public void setOnDateTimeSetListener(
             OnDialogResultSetListener onDialogResultSetListener) {
         mOnDialogResultSetListener = onDialogResultSetListener;

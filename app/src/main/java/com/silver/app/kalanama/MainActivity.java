@@ -23,6 +23,7 @@ public class MainActivity extends ActivityBase {
     static final String KEY_ViewCount = "ViewCount";
     static final String KEY_DiscussionCount = "DiscussionCount";
     static final String KEY_FAQCount = "FAQCount";
+    static final String KEY_FAQCount1 = "FAQCount1";
     ListView list;
     LazyAdapter adapter;
 
